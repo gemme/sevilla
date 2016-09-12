@@ -2,6 +2,6 @@
   "db": {    
     "name": "db",
     "connector": "mongodb",
-    "url": ""
+    "url": "mongodb://sevilla:S3villa@ds029496.mlab.com:29496/heroku_d9kdz0bs"
   }
 }
