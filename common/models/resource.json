@@ -1,0 +1,28 @@
+{
+  "name": "Resource",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "module": {
+      "type": "string",
+      "required": true
+    },
+    "permission": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "role": {
+      "type": "belongsTo",
+      "model": "Role",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
