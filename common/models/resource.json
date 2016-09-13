@@ -6,12 +6,12 @@
     "validateUpsert": true
   },
   "properties": {
-    "module": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "permission": {
-      "type": "object",
+    "permissions": {
+      "type": [ "string" ],
       "required": true
     }
   },

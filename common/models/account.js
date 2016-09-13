@@ -120,7 +120,7 @@ module.exports = function(Account) {
                     return {
                         id: resource.id,
                         module: resource.module,
-                        permission: resource.permission,
+                        permissions: resource.permissions,
                     }
                 });
             _roles.push({
