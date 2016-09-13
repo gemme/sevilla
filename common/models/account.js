@@ -119,7 +119,7 @@ module.exports = function(Account) {
                 map(function(resource){
                     return {
                         id: resource.id,
-                        module: resource.module,
+                        name: resource.name,
                         permissions: resource.permissions,
                     }
                 });
