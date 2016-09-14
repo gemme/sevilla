@@ -11,7 +11,9 @@
       "required": true
     },
     "permissions": {
-      "type": [ "string" ],
+      "type": [
+        "string"
+      ],
       "required": true
     }
   },

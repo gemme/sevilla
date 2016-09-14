@@ -1,7 +1,7 @@
 {
-  "db": {    
+  "db": {
+    "url": "mongodb://sevilla:S3villa@ds029496.mlab.com:29496/heroku_d9kdz0bs",
     "name": "db",
-    "connector": "mongodb",
-    "url": "mongodb://sevilla:S3villa@ds029496.mlab.com:29496/heroku_d9kdz0bs"
+    "connector": "mongodb"
   }
 }
